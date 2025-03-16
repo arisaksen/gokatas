@@ -13,6 +13,12 @@ Then be rewriting it partially or from scratch until you feel comfortable with i
 Use `git diff` to see how you are doing. There's a command to show the katas 
 with some info and your progress:
 
+
+Pick random kata:
+```
+$ go run ./cmd/gokatas -r
+```
+
 ```
 $ go run ./cmd/gokatas -c 2
 Kata              Last done    Done  Level     Topics
